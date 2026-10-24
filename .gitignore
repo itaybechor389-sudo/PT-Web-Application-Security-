@@ -1,0 +1,30 @@
+# Runtime data and secrets
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+config-*.xml
+*backup*/
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.log
+# Python / IDE
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
